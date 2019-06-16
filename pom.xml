@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.xuxueli</groupId>
 	<artifactId>xxl-conf</artifactId>
-	<version>1.6.2-SNAPSHOT</version>
+	<version>1.6.2</version>
 	<packaging>pom</packaging>
 
 	<name>xxl-conf</name>
@@ -143,12 +143,12 @@
 			<distributionManagement>
 				<snapshotRepository>
 				    <id>releases</id> 
-				    <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+				    <url>http://nexus.linesno.com/nexus/content/repositories/releases/</url>
 				    <uniqueVersion>true</uniqueVersion>
 				</snapshotRepository>
 				<repository>
 				    <id>snapshots</id> 
-				    <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+				    <url>http://nexus.linesno.com/nexus/content/repositories/snapshots/</url>
 				</repository>
 			    </distributionManagement>
 			
