@@ -143,12 +143,12 @@
 			<distributionManagement>
 				<snapshotRepository>
 				    <id>releases</id> 
-				    <url>http://nexus.linesno.com/nexus/content/repositories/releases/</url>
+				    <url>http://localhost:8081/nexus/content/repositories/releases/</url>
 				    <uniqueVersion>true</uniqueVersion>
 				</snapshotRepository>
 				<repository>
 				    <id>snapshots</id> 
-				    <url>http://nexus.linesno.com/nexus/content/repositories/snapshots/</url>
+				    <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
 				</repository>
 			    </distributionManagement>
 			
